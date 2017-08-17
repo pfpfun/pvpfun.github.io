@@ -1,0 +1,26 @@
+.video_info {position:absolute; top:380px; margin-left:410px;}
+.video_a {position: fixed; bottom:0; right:0}
+
+
+.osx { background:url(../images/video/img.png); width:140px; height:170px; display:block; position:absolute; bottom:0; right:0}
+.osx .fhover { background:url(../images/video/img.png) bottom; width:140px; height:170px; }
+#osx-modal-content, #osx-modal-data {display:none;}
+.simplemodal-close { background:url(../images/video/popup_close.png); width:34px; height:34px; display:block; position:absolute; top:35px; right:30px;}
+.simplemodal-close .fhover { background:url(../images/video/popup_close.png) bottom; width:34px; height:34px; }
+
+/* Overlay */
+#osx-overlay {background-color:#000;}
+
+/* Container */
+#osx-container {margin-top:10%; margin-left:-15px;width:460px; height:400px;}
+#osx-container a {color:#ddd;}
+#osx-container #osx-modal-title { text-align:center; font-size:24px; color:#8ec6ce; font-family:Sava Pro; margin-left:-90px;}
+#osx-container .close { }
+#osx-container .close a {}
+#osx-container .close a:hover {}
+#osx-container #osx-modal-data {background:url(../images/popup_background.png);width:460px; height:425px; z-index:1000;margin-left:0px;}
+.osx-modal-data {position:absolute; margin:80px 0 0 45px;}
+#osx-container h2 {margin:10px 0 6px;}
+#osx-container p {margin-bottom:10px;}
+#osx-container span {color:#777;}
+/*----------------------------------------------------------------------------------------*/

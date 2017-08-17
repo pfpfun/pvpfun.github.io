@@ -1,0 +1,524 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0021)http://global-war.ru/ -->
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Global-War.ru - Interlude x100 MultiCraft</title>
+	<link rel="shortcut icon" href="http://global-war.ru/favicon.ico">
+	
+	<meta name="Description" content="stress, lineage2, la2, stressweb.ru">
+	<meta name="Keywords" content="stress, lineage2, la2, stressweb.ru">
+	<link href="./Global-War.ru - Interlude x100 MultiCraft_files/style.css" rel="stylesheet" type="text/css">
+	<link href="./Global-War.ru - Interlude x100 MultiCraft_files/engine.css" rel="stylesheet" type="text/css">
+    <link href="./Global-War.ru - Interlude x100 MultiCraft_files/basic-jquery-slider.css" rel="stylesheet" type="text/css">
+    <link href="./Global-War.ru - Interlude x100 MultiCraft_files/pvp.css" rel="stylesheet" type="text/css">
+    <link href="./Global-War.ru - Interlude x100 MultiCraft_files/label.css" rel="stylesheet" type="text/css">
+    <link href="./Global-War.ru - Interlude x100 MultiCraft_files/osx.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="./Global-War.ru - Interlude x100 MultiCraft_files/jquery.tinyscrollbar.min.js"></script>
+	<script type="text/javascript" src="./Global-War.ru - Interlude x100 MultiCraft_files/scripts.js"></script>
+    <script type="text/javascript" src="./Global-War.ru - Interlude x100 MultiCraft_files/flexcroll.js"></script>
+    <!------------new timer------------------------------------------------------------------------------------->
+    <link rel="stylesheet" media="screen" href="./Global-War.ru - Interlude x100 MultiCraft_files/normalize.css">
+	<script src="./Global-War.ru - Interlude x100 MultiCraft_files/countdown.js"></script>
+    <!------------script-slider------------------------------------------------------------------------------------->
+    <link href="./Global-War.ru - Interlude x100 MultiCraft_files/css" rel="stylesheet" type="text/css">
+    <!------------script-pvp-top------------------------------------------------------------------------------------>
+    <script type="text/javascript" src="./Global-War.ru - Interlude x100 MultiCraft_files/jquery.js"></script>
+        <script src="./Global-War.ru - Interlude x100 MultiCraft_files/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="./Global-War.ru - Interlude x100 MultiCraft_files/scripts.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function() {
+
+	//Default Action
+	$(".tab_content").hide(); //Hide all content
+	$("ul.tabs li:first").addClass("active").show(); //Activate first tab
+	$(".tab_content:first").show(); //Show first tab content
+
+	//On Click Event
+	$("ul.tabs li").click(function() {
+		$("ul.tabs li").removeClass("active"); //Remove any "active" class
+		$(this).addClass("active"); //Add "active" class to selected tab
+		$(".tab_content").hide(); //Hide all tab content
+		var activeTab = $(this).find("a").attr("href"); //Find the rel attribute value to identify the active tab + content
+		$(activeTab).fadeIn(); //Fade in the active content
+		return false;
+	});
+
+});
+</script>
+</head>
+<body> 
+
+
+<div id="background">
+<!-- Начало Контента -->
+<div id="content">
+<a href="http://forum.global-war.ru/index.php?forums/%D0%A2%D0%B5%D1%85%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%BA%D0%B0-technical-support.8/create-thread" class="push_on" target="_blank">Онлайн?</a>
+<!-------------slider---------------------------------------------------------------------------------------------->
+<div id="container_pro">
+      <div id="banner" style="height: 122px; width: 401px;">
+        <ul class="bjqs" style="height: 122px; width: 401px;">
+          <li class="bjqs-slide" style="height: 122px; width: 401px; display: list-item;"><a href="http://global-war.ru/" target="_blank"><img src="./Global-War.ru - Interlude x100 MultiCraft_files/open.png"></a></li>
+        </ul>
+      </div>
+</div>
+
+
+
+
+<div id="logo">
+<div style="position:relative;">
+<a style="position: absolute; width: 420px; height: 163px; " href="http://global-war.ru/"></a>
+
+
+
+</div>
+
+
+</div>
+
+<!-- Начало Меню -->
+<div class="menu_l">
+<a href="http://global-war.ru/" title="Главная" id="t1"></a>
+<a href="http://forum.global-war.ru/index.php?posts/2/" title="О Сервере" target="_blank" id="t2"></a>
+<a href="http://global-war.ru/donate" title="Донейт" id="t3"></a>
+</div>
+
+<div class="menu_r">
+<a href="http://global-war.ru/index.php?f=files" title="Файлы" id="t4"></a>
+<a href="http://global-war.ru/index.php?f=stat" title="Статистика" id="t5"></a>
+<a href="http://forum.global-war.ru/" title="Форум" id="t6" target="_blank"></a>
+</div>
+<!-- Конец Меню-->
+
+<div id="reg_btn">
+<a href="http://global-war.ru/index.php?f=register" class="reg"><div class="fhover" style="opacity: 0;"></div></a>
+</div>
+
+
+
+<!-- Начало Статус серверов -->
+<div id="st"><script type="text/javascript">
+	$(document).ready(function(e) {
+		var rand = function(min, max) {
+			return Math.floor(arguments.length > 1 ? (max - min + 1) * Math.random() + min : (min + 1) * Math.random());
+		};
+
+		$('.load .line').height(0);
+        $('#server .item').each(function(i, el) {
+			
+			var serv = $(el);
+			
+        var online = $(el).find('.sonline span').html();
+		var curPercent =  online/5000*100;
+		if(curPercent > 99) {
+			curPercent = 100;
+			serv.find('.percent').html('100%');
+		}
+		
+		console.log(curPercent);
+		var num = 0;
+		var up_up = setInterval( function() {
+			if(num > curPercent){
+				clearInterval(up_up);
+
+				return;
+			}
+			if(curPercent > 0) {
+				num = parseFloat(num) + parseFloat(rand(1.3));
+				num =  Math.ceil(num);
+
+			} else {
+				num = 0;
+			}
+				serv.find('.percent').html(num+'%');
+			}, 100);
+		
+		
+		$(el).find('.line').animate({height:online/5000*100+'%'},3000);
+    });
+    });
+</script>
+
+
+
+
+
+<div id="server">
+    <script type="text/javascript">
+	$(document).ready(function(e) {
+		var rand = function(min, max) {
+			return Math.floor(arguments.length > 1 ? (max - min + 1) * Math.random() + min : (min + 1) * Math.random());
+		};
+
+		$('.load .line').height(0);
+        $('#server .item').each(function(i, el) {
+			
+			var serv = $(el);
+			
+        var online = $(el).find('.sonline span').html();
+		var curPercent =  online/5000*100;
+		if(curPercent > 99) {
+			curPercent = 100;
+			serv.find('.percent').html('100%');
+		}
+		
+		console.log(curPercent);
+		var num = 0;
+		var up_up = setInterval( function() {
+			if(num > curPercent){
+				clearInterval(up_up);
+
+				return;
+			}
+			if(curPercent > 0) {
+				num = parseFloat(num) + parseFloat(rand(1.3));
+				num =  Math.ceil(num);
+
+			} else {
+				num = 0;
+			}
+				serv.find('.percent').html(num+'%');
+			}, 100);
+		
+		
+		$(el).find('.line').animate({height:online/5000*100+'%'},1000);
+    });
+    });
+</script>
+
+
+
+<div id="proba">
+<div class="item">
+<div class="sonline">online: <span>2507</span></div>
+<div class="load"><span class="percent">51%</span><div class="fixed-width"><div class="line" style="height: 50.14%; display: block;"></div></div></div>
+</div>
+</div><table>
+<tbody><tr>
+	<td align="left" class="name on"><center>x100 MultiCraft</center></td>
+	<td align="center" class="img"><img src="./Global-War.ru - Interlude x100 MultiCraft_files/ico-on.png" alt="on"></td>
+
+</tr>
+</tbody></table>
+
+</div><!--status-->
+
+
+
+
+
+
+</div>
+<div id="kp_stat"><a href="http://global-war.ru/index.php?f=stat" title="Смотреть полную статистику"></a></div>
+<!-- Конец Статус серверов -->
+
+<!-- Начало Видео -->
+<div id="forum">
+
+<!-- Модуль Темы с Форума -->
+<div id="lastpost">
+
+
+
+
+<div class="lastlink"><a href="http://forum.global-war.ru/threads/133" target="_blank">админ</a></div>
+<div class="lastdate">от: <a href="http://forum.global-war.ru/members/84" target="_blank">trezvoy</a> <b>17.08.17 13:03</b></div>
+
+
+
+<div class="lastlink"><a href="http://forum.global-war.ru/threads/131" target="_blank">bonus</a></div>
+<div class="lastdate">от: <a href="http://forum.global-war.ru/members/228" target="_blank">TopModel</a> <b>17.08.17 06:04</b></div>
+
+
+
+<div class="lastlink"><a href="http://forum.global-war.ru/threads/132" target="_blank">Репост в ВК</a></div>
+<div class="lastdate">от: <a href="http://forum.global-war.ru/members/200" target="_blank">lVIPlxlFearLess</a> <b>16.08.17 23:22</b></div>
+
+
+
+<div class="lastlink"><a href="http://forum.global-war.ru/threads/74" target="_blank">Enotbl Style</a></div>
+<div class="lastdate">от: <a href="http://forum.global-war.ru/members/202" target="_blank">lVIPlxlFearLess</a> <b>16.08.17 23:01</b></div>
+
+
+
+<div class="lastlink"><a href="http://forum.global-war.ru/threads/62" target="_blank">Бонус переходящим клан...</a></div>
+<div class="lastdate">от: <a href="http://forum.global-war.ru/members/1" target="_blank">discoblaster</a> <b>16.08.17 21:30</b></div>
+
+
+
+
+
+</div>
+
+
+
+
+	
+</div>
+<!-- Конец Видео -->
+
+
+<!-- Начало Счетчики -->
+<div id="ban">
+<!-- HotLog -->
+<span id="hotlog_counter"><a href="http://click.hotlog.ru/?2552963" target="_blank"><img src="./Global-War.ru - Interlude x100 MultiCraft_files/count" class="hotlog_counter" border="0" alt="HotLog" title="HotLog" width="88" height="31"></a></span>
+<span id="hotlog_dyn"><script type="text/javascript" async="" src="./Global-War.ru - Interlude x100 MultiCraft_files/2552963.js"></script></span>
+<script type="text/javascript"> var hot_s = document.createElement('script');
+hot_s.type = 'text/javascript'; hot_s.async = true;
+hot_s.src = 'http://js.hotlog.ru/dcounter/2552963.js';
+hot_d = document.getElementById('hotlog_dyn');
+hot_d.appendChild(hot_s);
+</script>
+<noscript>
+&lt;a href="http://click.hotlog.ru/?2552963" target="_blank"&gt;
+&lt;img src="http://hit20.hotlog.ru/cgi-bin/hotlog/count?s=2552963&amp;im=357" border="0" 
+title="HotLog" alt="HotLog"&gt;&lt;/a&gt;
+</noscript>
+<!-- /HotLog --><br>
+</div>
+<div id="ban1">
+<!-- begin WebMoney Transfer : accept label -->
+<a href="https://www.megastock.com/" target="_blank"><img src="./Global-War.ru - Interlude x100 MultiCraft_files/88x31_wm_blue.png" alt="www.megastock.com" border="0"></a>
+<!-- end WebMoney Transfer : accept label -->
+</div>
+<div id="ban2">
+
+<a href="http://l2anons.ru/" target="_blank"><img src="./Global-War.ru - Interlude x100 MultiCraft_files/sitebutton.gif" title="Новые сервера Lineage 2 Interlude, Gracia Final, Epilogue, Freya, High Five, GOD" width="88" height="31" border="0"></a>
+<a href="http://la2-mir.ru/" target="_blank"><img src="./Global-War.ru - Interlude x100 MultiCraft_files/Untitled-2.gif" alt="la2-mir.ru: Анонсы новых серверов Lineage2"></a>
+<a href="http://l2top-anons.ru/" target="_blank"><img src="./Global-War.ru - Interlude x100 MultiCraft_files/l2top-anons_ru.gif" alt="l2top-anons.ru: Анонсы новых серверов Lineage2"></a>
+<a href="http://la2anons.su/" target="_blank"><img src="./Global-War.ru - Interlude x100 MultiCraft_files/la2anonssu.gif" alt="La2anons.su  Анонсы новых серверов Lineage 2"></a>
+<a href="https://pickns.ru/" target="_blank"><img src="https://pickns.ru/banner.gif" title="Первый анонс Lineage 2 - PickNS" width="88" height="31" border="0" style="display: none !important;"></a>
+<a href="http://l2-life.ru/" target="_blank"><img src="./Global-War.ru - Interlude x100 MultiCraft_files/l2-life.gif" alt="l2-life.ru: Анонсы Новых Серверов Lineage2"></a>
+</div>
+<!-- Конец Счетчики -->
+
+<!-- Начало Новостей -->
+<div class="conts">
+<div id="mycustomscroll" class="flexcroll flexcrollactive" style="overflow: hidden; border-width: 0px; position: relative; text-align: left; padding: 0px;" tabindex="0"><div id="mycustomscroll_mcontentwrapper" class="mcontentwrapper" style="width: 410px; height: 610px; top: 0px; left: 0px; border-bottom: 0px solid black; text-align: start; padding: 0px; position: relative; overflow: hidden; z-index: 2;"><div id="mycustomscroll_contentwrapper" class="contentwrapper" style="position: relative; top: 0px; width: 100%; display: block; padding: 0px; left: 0px;">																																																																																																																																																																																																																																											<div style="display:none;">Играйте в игры которые очень интересные для геймеров, они вам очень понравятся и вы будете заходить на сайт: <a href="http://darkrealm.su/">darkrealm.su</a> каждый день, чтобы насладиться своей любимой игрой в онлайн режиме.</div>																																																																				<div style="display:none;">Делая сайты, каждый вебмастер задается вопросом о красоте будущего сайта и переходит в поиск веб дизайна на свой сайт, так вот сайт с <a href="http://l2design.ru/">бесплатными шаблонами для игровых сайтов</a> придется в самый нужный момент на помощь, где вы сможете выбрать из множества бесплатных дизайнов.</div>																				<div style="display:none;">Вам надоел прошлый игровой сервер Lineage 2 и вы не знаете где начать играть заного? Приходите на крупный поиск на <a href="http://l2cat.ru/">сайт анонсов Lineage 2</a> где и сможете в крайчайшие сроки подобрать качественный сервер для себя и игры с друзьями.</div>																													<div style="display:none;"> Когда наступающий праздник на носу необходимо поздравить своих близких с этим грядущим днем и <a href="http://pozhelanya.ru/">выбрать пожелания</a>, воспользуйтесь поиском по сайту и подберите нужное поздравление по такому случаю.</div>																																																	<div style="display:none;"> Вкусная готовка по любимым рецептам это хорошо, но иногда нужно побаловать вкусным блюдом своих родных, и самое время обратиться за помощью к сайту <a href="http://crazy-cookery.ru/category/holodnie_zakuski/">холодных закусок</a>  и выбрать подходящий кулинарный рецепт.</div>																																																						<div style="display:none;">Мы занимаемся поиском серверов Lineage 2 для того, чтобы вы не замарачивались с этим, на нашем сайте <a href="http://l2anonse.ru/graciaepilogue/">анонсе новых серверов л2</a> анонсируются открывающиеся l2 сервера.</div>																																																																				
+
+<div id="news">
+	<div class="ntitle"><img src="./Global-War.ru - Interlude x100 MultiCraft_files/newsico.png" alt=""><a href="http://global-war.ru/index.php?f=news&amp;nid=4">Открытие сервера</a></div>
+	<div class="ncontent"><p style="text-align: center;"><strong>Уважаемые игроки и пользователи нашего проекта!</strong></p>
+<p style="text-align: center;">Дорогие гости, нами был разработан новый игровой мир x100 Multicraft - Global-War.ru<br>У каждого игрока будет выбор как развивать своего персонажа, Вам нужно будет выбрать только путь развития!<br>Кто Вы? Храбрый воин который готов сразится с целым кланом в одиночку или же игрок поддержки который пожертвует собой ради других!</p>
+<p style="text-align: center;">&nbsp;</p>
+<hr>
+<p style="text-align: center;"><span style="font-size: medium;"><strong><br></strong></span></p>
+<p style="text-align: center;"><span style="font-size: medium;"><strong>Открытие сервера: <span style="color: #800000;">15.08.2017 в 20:00 (МСК) GMT+3.</span></strong></span><br><span style="font-size: medium;"><strong>Платформа:</strong> Interlude</span><br><span style="font-size: medium;"><strong>Режим:</strong> MultiCraft.</span><br><span style="font-size: medium;"><strong>Рейты: <span style="color: #339966;">XP\SP x100 - Adena x75 - Drop\Spoil x400</span></strong></span></p>
+<p style="text-align: center;"><span style="font-size: medium;"><strong><span style="color: #339966;"><br></span></strong></span></p>
+<hr>
+<p style="text-align: center;"><strong>&nbsp;Основные качества нашего проекта:</strong></p>
+<p style="text-align: center;"><span style="color: #00ff00;">✔</span>Гарантия защиты от DDoS и взлома.<br><span style="color: #00ff00;">✔</span>Всего можно добиться игровым путем.<br><span style="color: #00ff00;">✔</span>Большой опыт администрации в сфере Lineage.<br><span style="color: #00ff00;">✔</span>Стабильная работа сервера 24/7.<br><span style="color: #00ff00;">✔</span>Большой стартовый онлайн!</p>
+<hr>
+<div>
+<div>
+<div><span><br></span></div>
+<div style="text-align: center;"><span><strong>Подробное описание и акций нашего проекта здесь:</strong><br></span></div>
+</div>
+<div style="text-align: center;">
+<h3 class="title"><a class="PreviewTooltip" title="" href="http://forum.global-war.ru/index.php?threads/%D0%9E%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0-x100-multicraft.2/" data-previewurl="index.php?threads/%D0%9E%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5-%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80%D0%B0-x100-multicraft.2/preview">Описание сервера x100 MultiCraft</a></h3>
+<h3 class="title"><a class="PreviewTooltip" title="" href="http://forum.global-war.ru/index.php?threads/%D0%91%D0%BE%D0%BD%D1%83%D1%81-%D0%BF%D0%B5%D1%80%D0%B5%D1%85%D0%BE%D0%B4%D1%8F%D1%89%D0%B8%D0%BC-%D0%BA%D0%BB%D0%B0%D0%BD%D0%B0%D0%BC.62/" data-previewurl="index.php?threads/%D0%91%D0%BE%D0%BD%D1%83%D1%81-%D0%BF%D0%B5%D1%80%D0%B5%D1%85%D0%BE%D0%B4%D1%8F%D1%89%D0%B8%D0%BC-%D0%BA%D0%BB%D0%B0%D0%BD%D0%B0%D0%BC.62/preview">Бонус переходящим кланам</a></h3>
+<h3 class="title"><a class="PreviewTooltip" title="" href="http://forum.global-war.ru/index.php?threads/buff-coin-%D0%BD%D0%B0-%D1%85%D0%B0%D0%BB%D1%8F%D0%B2%D1%83.63/" data-previewurl="index.php?threads/buff-coin-%D0%BD%D0%B0-%D1%85%D0%B0%D0%BB%D1%8F%D0%B2%D1%83.63/preview">Buff Coin на халяву</a></h3>
+<h3 class="title"><a class="PreviewTooltip" title="" href="http://forum.global-war.ru/index.php?threads/%D0%A0%D0%B5%D0%BF%D0%BE%D1%81%D1%82-%D0%B2-%D0%92%D0%9A.6/" data-previewurl="index.php?threads/%D0%A0%D0%B5%D0%BF%D0%BE%D1%81%D1%82-%D0%B2-%D0%92%D0%9A.6/preview">Репост в ВК</a></h3>
+</div>
+</div></div><br>
+	<div class="nimg"><img src="./Global-War.ru - Interlude x100 MultiCraft_files/linenews.png" alt=""></div><br>
+</div>
+
+</div></div><div id="mycustomscroll_scrollwrapper" class="scrollwrapper" style="width: 410px; height: 610px; position: absolute; top: 0px; left: 0px; visibility: visible;"><div id="mycustomscroll_zoomdetectdiv" class="zoomdetectdiv" style="font-size: 12px; height: 1em; width: 1em; position: absolute; z-index: -999; visibility: hidden;"></div><div id="mycustomscroll_vscrollerbase" class="vscrollerbase scrollgeneric flexinactive" style="height: 610px; left: 410px; visibility: hidden;"><div id="mycustomscroll_vscrollerbar" class="vscrollerbar scrollgeneric" style="padding: 0px; height: 457px; top: 0px; z-index: 2; visibility: hidden;"><div id="mycustomscroll_vscrollerbarbeg" class="vscrollerbarbeg scrollgeneric" style="height: 457px;"></div><div id="mycustomscroll_vscrollerbarend" class="vscrollerbarend scrollgeneric" style="top: 457px;"></div></div><div id="mycustomscroll_vscrollerbasebeg" class="vscrollerbasebeg scrollgeneric" style="height: 610px;"></div><div id="mycustomscroll_vscrollerbaseend" class="vscrollerbaseend scrollgeneric" style="top: 610px;"></div></div><div id="mycustomscroll_hscrollerbase" class="hscrollerbase scrollgeneric flexinactive" style="width: 410px; top: 610px; visibility: hidden;"><div id="mycustomscroll_hscrollerbar" class="hscrollerbar scrollgeneric" style="padding: 0px; width: 307px; left: 0px; z-index: 2; visibility: hidden;"><div id="mycustomscroll_hscrollerbarbeg" class="hscrollerbarbeg scrollgeneric" style="width: 307px;"></div><div id="mycustomscroll_hscrollerbarend" class="hscrollerbarend scrollgeneric" style="left: 307px;"></div></div><div id="mycustomscroll_hscrollerbasebeg" class="hscrollerbasebeg scrollgeneric" style="width: 410px;"></div><div id="mycustomscroll_hscrollerbaseend" class="hscrollerbaseend scrollgeneric" style="left: 410px;"></div></div><div id="mycustomscroll_scrollerjogbox" class="scrollerjogbox scrollgeneric" style="visibility: hidden;"></div></div></div></div>
+<!-- Конец Новостей -->
+
+<!-- Начало личный кабинет -->
+<div id="lk">
+<script type="text/javascript">//<![CDATA[
+function reload1 () {
+	var rndval = new Date().getTime(); 
+	document.getElementById('sw1-captcha').innerHTML = '<a onclick="reload1(); return false;" href="#"><img src="http://global-war.ru/module/antibot.php?rndval=' + rndval + '" border="0" alt="code" title="Обновить" /></a>';
+};
+//]]></script>
+
+<div id="login" style="color:#0F0; width:250px;"><b>
+<form action="http://global-war.ru/" method="post" name="dologin">
+<input type="hidden" value="1" name="doLogin">
+<input type="submit" style="display:none">
+<table width="170" height="100" cellpadding="0" cellspacing="0">
+<tbody><tr>
+	<td valign="top" class="login_fon" colspan="2"><div class="lb_wrap" style="position:relative; display: inline;"><input type="text" name="sw_name" class="login" maxlength="16" value="" data-new-placeholder="от 4 до 16 символов" placeholder="Ваш логин..." required=""></div></td>
+</tr>
+	<tr><td colspan="2" height="10"></td></tr>
+<tr>
+	<td valign="top" class="password_fon" colspan="2"><div class="lb_wrap" style="position:relative; display: inline;"><input type="password" name="sw_pass" class="password" maxlength="16" value="" data-new-placeholder="от 4 до 16 символов" placeholder="Ваш пароль..." required=""></div></td>
+</tr>
+	<tr><td colspan="2" height="10"></td></tr>
+
+<tr>
+    <td height="39"><div id="sw1-captcha" class="captcha"><a onclick="reload1(); return false;" href="http://global-war.ru/#"><img src="./Global-War.ru - Interlude x100 MultiCraft_files/antibot.php" alt="code" title="Обновить" border="0"></a></div></td>
+    <td valign="middle" class="captcha_fonts"><div class="lb_wrap" style="position:relative; display: inline;"><input type="text" name="l2sec_code" class="cap" maxlength="10" data-new-placeholder="капча" placeholder="Код" required=""></div></td>
+</tr>
+
+	<tr><td colspan="2" height="10"></td></tr>
+    
+<tr>
+<td align="center" class="lktext" style="position:absolute; margin-top:-10px; left:12px; height:100px; max-height:100px; min-height:100px;">
+<a href="http://global-war.ru/index.php?f=forget">Забыли пароль?</a> <b><span style="color: #FFF;">|</span></b>
+<a href="http://global-war.ru/" onclick="javascript: document.dologin.submit(); return false;">Войти</a><br>
+</td>
+</tr>
+</tbody></table>
+</form>
+</b></div>
+
+</div>
+<!-- Конец личный кабинет -->
+
+<!-- Начало Блок Рейтинга -->
+<div class="container">
+    <ul class="tabs">
+        <li class="active"><a href="http://global-war.ru/#tab1">PvP</a></li>
+        <li><a href="http://global-war.ru/#tab2">PK</a></li>
+
+    </ul>
+    <div class="tab_container">
+        <div id="tab1" class="tab_content" style="display: block;">
+			
+<!-- Модуль PvP Top -->
+<table cellpadding="0" cellspacing="0" id="l2pvp">
+
+
+<tbody><tr>
+	<td align="left">1. lVIPlxlUFC</td>
+	<td align="right">88</td>
+</tr>
+
+
+<tr>
+	<td align="left">2. lVIPlxlEp1cS1de</td>
+	<td align="right">81</td>
+</tr>
+
+
+<tr>
+	<td align="left">3. asa</td>
+	<td align="right">57</td>
+</tr>
+
+
+<tr>
+	<td align="left">4. Lanser</td>
+	<td align="right">56</td>
+</tr>
+
+
+<tr>
+	<td align="left">5. lVIPlxlFearLess</td>
+	<td align="right">54</td>
+</tr>
+
+</tbody></table>
+
+
+        </div>
+        <div id="tab2" class="tab_content" style="display: none;">
+			
+<!-- Модуль PK Top -->
+<table cellpadding="0" cellspacing="0" id="l2pk">
+
+
+<tbody><tr>
+	<td align="left">1. Oga</td>
+	<td align="right">59</td>
+</tr>
+
+
+<tr>
+	<td align="left">2. ADM-GLOBAL</td>
+	<td align="right">50</td>
+</tr>
+
+
+<tr>
+	<td align="left">3. asa</td>
+	<td align="right">50</td>
+</tr>
+
+
+<tr>
+	<td align="left">4. mTbZ</td>
+	<td align="right">46</td>
+</tr>
+
+
+<tr>
+	<td align="left">5. lVIPlxlEp1cS1de</td>
+	<td align="right">34</td>
+</tr>
+
+</tbody></table>
+
+
+        </div> 
+    </div>
+</div>
+<!-- Начало Виджет -->
+<div id="vk"><script type="text/javascript" src="./Global-War.ru - Interlude x100 MultiCraft_files/openapi.js"></script>
+
+<!-- VK Widget -->
+<div id="vk_groups" style="width: 180px; height: 216px; background: none;"><iframe name="fXD61859" frameborder="0" src="./Global-War.ru - Interlude x100 MultiCraft_files/widget_community.html" width="180" height="210" scrolling="no" id="vkwidget1" style="overflow: hidden; height: 216px;"></iframe></div>
+<script type="text/javascript">
+VK.Widgets.Group("vk_groups", {mode: 0, width: "180", height: "210", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6'}, 119512632);
+</script></div>
+<!-- Конец Виджет -->
+
+</div>
+				<a style="position: fixed; z-index:99999999; top: 120px; right: 50px;" target="_blank" href="http://new-lineage.ru/"><img src="./Global-War.ru - Interlude x100 MultiCraft_files/L2.gif" title="Новые сервера Lineage 2"></a>
+<a style="position: fixed; z-index:99999; bottom: 0; left: 0; " target="_blank" href="http://la2top.net/"><img alt="Новые сервера Lineage 2, L2TOP сервера, Анонсы серверов Lineage 2" title="Новые сервера Lineage 2, L2TOP сервера, Анонсы серверов Lineage 2" src="./Global-War.ru - Interlude x100 MultiCraft_files/top.png" width="186" height="59" border="0"></a>
+<a style="position: fixed; margin-right: 50px; margin-bottom: 50px; z-index:99999; bottom: 0; right: 0;" target="_blank" href="http://l2-pick.ru/"><img border="0" title="Анонсы серверов Lineage 2, новые сервера л2" alt="Анонсы серверов Lineage 2, новые сервера л2" src="./Global-War.ru - Interlude x100 MultiCraft_files/forl2pick.jpg" width="210" height="80"></a>
+<!----------script-for-promo-------------------------------------------------------------------------------------->  
+    <script type="text/javascript" src="./Global-War.ru - Interlude x100 MultiCraft_files/jquery.js"></script>
+	<script type="text/javascript" src="./Global-War.ru - Interlude x100 MultiCraft_files/jquery.simplemodal.js"></script>
+	<script type="text/javascript" src="./Global-War.ru - Interlude x100 MultiCraft_files/osx.js"></script>
+
+
+
+<!------------script-slider------------------------------------------------------------------------------------->
+	<script src="./Global-War.ru - Interlude x100 MultiCraft_files/basic-jquery-slider.js"></script>
+    <script>
+      $(document).ready(function() {
+        
+        $('#banner').bjqs({
+          'animation' : 'slide',
+          'width' : 401,
+          'height' : 122
+        });
+        
+      });
+</script>
+
+<script type="text/javascript" src="./Global-War.ru - Interlude x100 MultiCraft_files/jquery.label_better.js"></script>
+    	<script>
+	  $(document).ready( function() {
+	    $(".login").label_better({
+	      easing: "bounce"
+	    });
+	  });
+		
+	</script>
+    <script>
+	  $(document).ready( function() {
+	    $(".password").label_better({
+	      easing: "bounce"
+	    });
+	  });
+		
+	</script>
+    <script>
+	  $(document).ready( function() {
+	    $(".cap").label_better({
+	      easing: "bounce"
+	    });
+	  });
+		
+	</script>
+
+
+<!-- 2008-2013 © http://stressweb.ru -->
+<!-- STRESS WEB rev.13 --></div></body></html>
